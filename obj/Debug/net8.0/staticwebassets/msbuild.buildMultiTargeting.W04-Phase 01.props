@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\W04-Phase 01.props" />
+</Project>

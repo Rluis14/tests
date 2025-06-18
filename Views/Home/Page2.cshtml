@@ -1,0 +1,21 @@
+﻿@model W04_Phase_01.Models.Person
+@{
+    ViewData["Title"] = "Submitted Information";
+}
+
+<h2>PAGE 2</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FName @Model.LName</h5>
+        <p class="card-text">
+            <strong>Email:</strong> @Model.Email<br />
+            <strong>Phone:</strong> @Model.Phone<br />
+            <strong>Address:</strong> @Model.Address<br />
+            <strong>Username:</strong> @Model.UserName<br />
+            <strong>Password:</strong> @Model.Password
+        </p>
+    </div>
+</div>
+
+<a asp-action="Edit" class="btn btn-primary mt-3">Edit</a>
